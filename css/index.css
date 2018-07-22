@@ -1,6 +1,8 @@
 * {
 font-family: 'Open Sans', sans-serif;
 border: 1px solid rgba(0, 0, 0, 0.3);
+margin: 0;
+padding: 0;
 }
 h1 {
 	color: maroon;
