@@ -5,6 +5,7 @@
 	padding: 0;
 	box-sizing: border-box;								/*Sets boundary so containers are easier to 
 manage*/
+	text-align: center;
 }
 
 h1 {
