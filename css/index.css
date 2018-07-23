@@ -16,6 +16,7 @@ h1 {
 nav.navbar {
 	background-color: #000080;
 	text-align: left;
+	display: inline-block;
 	position: relative;
 	width: 100%;
 	text-transform: uppercase;
@@ -24,7 +25,7 @@ nav.navbar {
 .navbar a:-webkit-any-link {
 	color: white;
 	text-decoration: none;
-	display:inline;
+	display: inline-block;
 }
 nav.navbar ul {
 	list-style-type: none;
