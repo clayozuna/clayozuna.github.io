@@ -37,7 +37,7 @@ nav.navbar li {
 	float:left;
 }
 .header h1 {
-	background-image: ../images/large-cauldron.jpg;
+	background-image: url("../images/large-cauldron.jpg");
 	height: 400px;
 	background-position: center center;
 }
