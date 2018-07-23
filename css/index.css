@@ -18,9 +18,7 @@ h1 {
 	text-align: center;
 	color: maroon;
 	display: inline-block;
-	position: fixed;
-	margin: 10px;
-	padding: 10px;
+	position: relative;
 	width: 100%;
 }
 /*
