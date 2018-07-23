@@ -43,6 +43,9 @@ nav.navbar li {
 	height: 500px;
 	background-position: top center;
 }
+.header h1 {
+	position: center center;
+}
 /*
 .header {
 	position:absolute;
