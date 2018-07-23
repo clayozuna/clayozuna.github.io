@@ -38,9 +38,9 @@ nav.navbar li {
 }
 .header h1 {
 	background-image: url("../images/bridge1.jpg");
-	background-size: contain;
+	background-size: 100%;
 	background-repeat: no-repeat;
-	height: 400px;
+	height: 500px;
 	background-position: center center;
 }
 /*
