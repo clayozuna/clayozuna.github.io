@@ -15,11 +15,15 @@ h1 {
 }
 .navbar {
 	background-color: #FAEBD7;
-	text-align: center;
-	color: maroon;
+	text-align: left;
 	display: inline-block;
 	position: relative;
 	width: 100%;
+	text-transform: uppercase;
+}
+a.navbar {
+	color: white;
+	text-decoration: none;
 }
 /*
 .header {
