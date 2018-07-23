@@ -24,7 +24,7 @@ nav.navbar {
 .navbar a:-webkit-any-link {
 	color: white;
 	text-decoration: none;
-	display:inline-block;
+	display:inline;
 }
 nav.navbar ul {
 	list-style-type: none;
