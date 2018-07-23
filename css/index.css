@@ -15,10 +15,13 @@ h1 {
 	visibility: hidden;
 }
 .navbar {
-	width: 80px;
+	background-color: #466995;
+	width: 100%;
 	text-align: left;
 	color: maroon;
 	display: inline-block;
+	position: fixed;
+
 }
 .header {
 	position:absolute;
