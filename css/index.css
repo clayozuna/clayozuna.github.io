@@ -28,7 +28,7 @@ nav.navbar {
 	display: inline-block;
 	padding:12px 15px;
 	font-size: 14px;
-	border: 1px solid rgba(0, 0, 0, 0.3); /*Border to se finished boundary.*/
+	border: 1px solid rgba(220,20,60, 0.3); /*Border to se finished boundary.*/
 }
 nav.navbar ul {
 	list-style-type: none;
