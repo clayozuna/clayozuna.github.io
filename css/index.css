@@ -38,6 +38,7 @@ nav.navbar li {
 }
 .header h1 {
 	background-image: url("../images/large-cauldron.jpg");
+	background-size: contain;
 	height: 400px;
 	background-position: center center;
 }
