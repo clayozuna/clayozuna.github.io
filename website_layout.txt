@@ -1,0 +1,11 @@
+This is my plan for how the website will be laid out.
+
+At the top:
+	1. There will be a navigation bar that allows me to come home and link to other 
+internal pages.
+
+Beneath the navigation bar:
+	1. There will be a banner picture that will have my name as well.
+
+Beneath the banner:
+	1. There will be a greeting so people learn who I am.
