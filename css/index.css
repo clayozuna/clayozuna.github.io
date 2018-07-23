@@ -6,11 +6,11 @@
 	box-sizing: border-box;								/*Sets boundary so containers are easier to manage*/
 	text-align: center;
 }
-
+/*
 h1 {
 	color: maroon;
 }
-
+*/
 .experimental {
 	visibility: hidden;
 }
@@ -20,8 +20,11 @@ h1 {
 	color: maroon;
 	display: inline-block;
 	position: fixed;
+	margin: 10px;
+	padding: 10px;
 
 }
+/*
 .header {
 	position:absolute;
 	top: 0px;
@@ -29,3 +32,4 @@ h1 {
 	width: 133px;
 	height: 500px;
 }
+*/
