@@ -44,8 +44,11 @@ nav.navbar li {
 	background-position: top center;
 }
 .header h1 {
-	position: center center;
 	color: white;
+	position: relative;
+	top: 100px;
+	text-align:center;
+	font-size: 50px;
 }
 /*
 .header {
