@@ -45,7 +45,7 @@ nav.navbar li {
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-attachment: scroll;
-	height: 500px;
+	height: 100vh; /*vh scales to the screen size*/
 	background-position: 50% 50%;
 	border: 1px solid red;
 }
