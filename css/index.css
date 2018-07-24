@@ -55,7 +55,7 @@ nav.navbar li {
 	top: 75px;
 	text-align:center;
 	font-size: 70px;
-	text-shadow: 0 0 40px rgba(0,0,0,.5);
+	text-shadow: 2px 2px 8px rgb(50, 50, 50)
 	min-width: 370px;
 	border: 1px solid red;
 }
@@ -65,7 +65,7 @@ nav.navbar li {
 	top: 100px;
 	text-align: center;
 	font-size: 40px;
-	text-shadow: 0 0 40px rgba(0,0,0,0.5);
+	text-shadow: 2px 2px 8px rgb(50, 50, 50)
 	min-width: 370px;
 	border: 1px solid red;
 }
@@ -76,7 +76,7 @@ nav.navbar li {
 	height: 1px;
 	text-align: center;
 	font-size: 40px;
-	text-shadow: 0 0 40px rgba(0,0,0,0.5);
+	text-shadow: 2px 2px 8px rgb(50, 50, 50)
 	min-width: 370px;
 	border: 1px solid red;
 }
