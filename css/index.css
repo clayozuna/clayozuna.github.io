@@ -20,6 +20,7 @@ nav.navbar {
 	position: relative;
 	width: 100%;
 	text-transform: uppercase;
+	margin-bottom: -6px;
 
 }
 .navbar a:-webkit-any-link {
