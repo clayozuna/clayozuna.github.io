@@ -34,9 +34,11 @@ nav.navbar {
 nav.navbar ul {
 	list-style-type: none;
 	font-size: 0;
+	border: 1px solid red;
 }
 nav.navbar li {
 	float:left;
+	border: 1px solid red;
 }
 .header {
 	background-image: linear-gradient(rgba(0, 0, 0, 0.39), rgba(0, 0, 0, 0.39)), url("../images/mountains2.jpg");
@@ -45,6 +47,7 @@ nav.navbar li {
 	background-attachment: scroll;
 	height: 500px;
 	background-position: 50% 50%;
+	border: 1px solid red;
 }
 .header h1 {
 	color: white;
@@ -54,6 +57,7 @@ nav.navbar li {
 	font-size: 70px;
 	text-shadow: 0 0 40px rgba(0,0,0,.5);
 	min-width: 370px;
+	border: 1px solid red;
 }
 .header p {
 	color: white;
@@ -63,6 +67,7 @@ nav.navbar li {
 	font-size: 40px;
 	text-shadow: 0 0 40px rgba(0,0,0,0.5);
 	min-width: 370px;
+	border: 1px solid red;
 }
 .header h2 {
 	color: white;
@@ -73,6 +78,7 @@ nav.navbar li {
 	font-size: 40px;
 	text-shadow: 0 0 40px rgba(0,0,0,0.5);
 	min-width: 370px;
+	border: 1px solid red;
 }
 /*
 .header {
