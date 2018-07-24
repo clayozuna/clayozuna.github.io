@@ -4,15 +4,12 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;								/*Sets boundary so containers are easier to manage*/
+	text-align: center;
 }
-/*
-h1 {
-	color: maroon;
-}
-*/
 .experimental {
 	visibility: hidden;
 }
+
 nav.navbar {
 	background-color: #000080;
 	text-align: left;
@@ -21,7 +18,17 @@ nav.navbar {
 	width: 100%;
 	text-transform: uppercase;
 	margin-bottom: -6px;
+}
 
+nav.navbar ul {
+	list-style-type: none;
+	font-size: 0;
+	border: 1px solid red;
+}
+
+nav.navbar li {
+	float:left;
+	border: 1px solid red;
 }
 .navbar a:-webkit-any-link {
 	color: white;
@@ -30,15 +37,6 @@ nav.navbar {
 	padding:12px 15px;
 	font-size: 14px;
 	border: 1px solid red; /*Border to se finished boundary.*/
-}
-nav.navbar ul {
-	list-style-type: none;
-	font-size: 0;
-	border: 1px solid red;
-}
-nav.navbar li {
-	float:left;
-	border: 1px solid red;
 }
 .header {
 	background-image: linear-gradient(rgba(0, 0, 0, 0.39), rgba(0, 0, 0, 0.39)), url("../images/mountains2.jpg");
@@ -80,12 +78,6 @@ nav.navbar li {
 	min-width: 370px;
 	border: 1px solid red;
 }
-/*
-.header {
-	position:absolute;
-	top: 0px;
-	left: 0px;
-	width: 133px;
-	height: 500px;
+. introduction {
+	
 }
-*/
