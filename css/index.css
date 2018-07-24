@@ -47,18 +47,29 @@ nav.navbar li {
 .header h1 {
 	color: white;
 	position: relative;
-	top: 85px;
+	top: 75px;
 	text-align:center;
 	font-size: 70px;
 	text-shadow: 0 0 40px rgba(0,0,0,.5);
+	min-width: 370px;
 }
 .header p {
+	color: white;
+	position: relative;
+	top: 100px;
+	text-align: center;
+	font-size: 40px;
+	text-shadow: 0 0 40px rgba(0,0,0,0.5);
+	min-width: 370px;
+}
+.header h2 {
 	color: white;
 	position: relative;
 	top: 90px;
 	text-align: center;
 	font-size: 40px;
 	text-shadow: 0 0 40px rgba(0,0,0,0.5);
+	min-width: 370px;
 }
 /*
 .header {
