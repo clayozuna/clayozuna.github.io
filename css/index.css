@@ -52,6 +52,14 @@ nav.navbar li {
 	font-size: 70px;
 	text-shadow: 0 0 40px rgba(0,0,0,.5);
 }
+.header p {
+	color: white;
+	position: relative;
+	top: 90px;
+	text-align: center;
+	font-size: 40px;
+	text-shadow: 0 0 40px rgba(0,0,0,0.5);
+}
 /*
 .header {
 	position:absolute;
