@@ -38,10 +38,11 @@ nav.navbar li {
 }
 .header {
 	background-image: linear-gradient(rgba(0, 0, 0, 0.39), rgba(0, 0, 0, 0.39)), url("../images/mountains2.jpg");
-	background-size: 100%;
+	background-size: cover;
 	background-repeat: no-repeat;
+	background-attachment: scroll;
 	height: 500px;
-	background-position: top center;
+	background-position: 50% 50%;
 }
 .header h1 {
 	color: white;
@@ -49,6 +50,7 @@ nav.navbar li {
 	top: 85px;
 	text-align:center;
 	font-size: 70px;
+	text-shadow: 0 0 40px rgba(0,0,0,.5);
 }
 /*
 .header {
