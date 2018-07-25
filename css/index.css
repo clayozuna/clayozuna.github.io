@@ -12,8 +12,8 @@
 nav.navbar {
 	background-color: #000080;
 	text-align: left;
-	display: inline-block;
-	position: relative;
+	display: block;
+	position: fixed;
 	width: 100%;
 	text-transform: uppercase;
 }
