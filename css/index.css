@@ -92,3 +92,35 @@ img.resize {
 	width:65vh;
 	margin:auto;
 }
+.w3-container h1 {
+	font-size: 4.6vh;
+
+}
+.w3-container h1::before {
+	content: " ";
+    display: inline-block;
+    vertical-align: 0vh;
+    margin: 0 10px;
+    position: relative;
+    padding-bottom: 0%;
+    width: 9vh;
+    background: #333;
+}
+.w3-container h1::after {
+	content: " ";
+    display: inline-block;
+    vertical-align: 0vh;
+    margin: 0 10px;
+    position: relative;
+    padding-bottom: 0%;
+    width: 9vh;
+    background: #333;
+}
+/*     content: " ";
+    display: inline-block;
+    height: 2px;
+    margin: 0 10px;
+    position: relative;
+    top: -1.4vh;
+    width: 9vh;
+    background: #333;*/
