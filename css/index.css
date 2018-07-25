@@ -77,6 +77,9 @@ nav.navbar li {
 	min-width: 370px;
 	border: 1px solid red;
 }
+.jumbotron-text {
+	top: 3vh;
+}
 img.resize {
 	border-radius: 100%;
 	width:80%;
@@ -87,13 +90,8 @@ img.resize {
 	min-width:44vh;
 	min-height:44vh;
 }
-#introduction {
-	width:65vh;
-	margin:auto;
-}
 .w3-container h1 {
 	font-size: 4.6vh;
-
 }
 .w3-container h1::before {
 	content: " ";
@@ -116,6 +114,10 @@ img.resize {
     width: 9vh;
     background: #333;
 	height:0.35vh;
+}
+#introduction {
+	width:65vh;
+	margin:auto;
 }
 /*     content: " ";
     display: inline-block;
