@@ -17,7 +17,6 @@ nav.navbar {
 	position: relative;
 	width: 100%;
 	text-transform: uppercase;
-	margin-bottom: -6px;
 }
 
 nav.navbar ul {
@@ -35,7 +34,7 @@ nav.navbar li {
 	text-decoration: none;
 	display: inline-block;
 	padding:12px 15px;
-	font-size: 14px;
+	font-size: 1.8vh;
 	border: 1px solid red; /*Border to se finished boundary.*/
 }
 .jumbotron {
@@ -50,9 +49,9 @@ nav.navbar li {
 .jumbotron h1 {
 	color: white;
 	position: relative;
-	top: 75px;
+	top: 10.2vh;
 	text-align:center;
-	font-size: 70px;
+	font-size: 8.8vh;
 	text-shadow: 2px 2px 8px rgb(50, 50, 50);
 	min-width: 370px;
 	border: 1px solid red;
@@ -60,9 +59,9 @@ nav.navbar li {
 .jumbotron p {
 	color: white;
 	position: relative;
-	top: 100px;
+	top: 7vh;
 	text-align: center;
-	font-size: 40px;
+	font-size: 5vh;
 	text-shadow: 2px 2px 8px rgb(50, 50, 50);
 	min-width: 370px;
 	border: 1px solid red;
@@ -70,10 +69,10 @@ nav.navbar li {
 .jumbotron h2 {
 	color: white;
 	position: relative;
-	top: 40px;
-	height: 1px;
+	top: 2vh;
+	height: 0vh;
 	text-align: center;
-	font-size: 40px;
+	font-size: 5vh;
 	text-shadow: 2px 2px 8px rgb(50, 50, 50);
 	min-width: 370px;
 	border: 1px solid red;
@@ -100,7 +99,7 @@ img.resize {
 	content: " ";
     display: inline-block;
     vertical-align: 1.5vh;
-    margin: 0 10px;
+    margin: 0 1.26vh;
     position: relative;
     padding-bottom: 0%;
     width: 9vh;
@@ -111,7 +110,7 @@ img.resize {
 	content: " ";
     display: inline-block;
     vertical-align: 1.5vh;
-    margin: 0 10px;
+    margin: 0 1.26vh;
     position: relative;
     padding-bottom: 0%;
     width: 9vh;
