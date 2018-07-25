@@ -3,6 +3,8 @@ This is my plan for how the website will be laid out.
 At the top:
 	1. There will be a navigation bar that allows me to come home and link to other 
 internal pages. --- COMPLETE
+		a. The pages will be about me, my projects, charitable work, and 
+contact info.
 
 Beneath the navigation bar:
 	1. There will be a banner picture that will have my name as well. --- 
@@ -12,8 +14,13 @@ greeting. --- COMPLETE
 
 Beneath the banner:
 	1. There will be a greeting so people learn who I am. --- COMPLETE
+		a. about me link will be overview about me, and hobbies.
 Beneath the about me introduction section:
 	1. Give a quick overview of research project.
+		a. Link will include all projects I have done in school and out.
 	2. Link to a page where a more in-depth overview can be given.
 Beneath the research section:
-	1. Ending where a footer will be included.
+	1. Charitable work section.
+		a. Link will include projects I have done for others.
+Beneath the charitable work section:
+	1. Footer with social media and contact information.
