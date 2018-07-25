@@ -10,37 +10,32 @@
 	visibility: hidden;
 }
 
-nav#navbar {
+nav.navbar {
 	background-color: #000080;
 	text-align: left;
 	display: inline-block;
 	position: relative;
 	width: 100%;
 	text-transform: uppercase;
-	transition: background-color 0.4s ease-out;
 }
 
-nav#navbar ul {
+nav.navbar ul {
 	list-style-type: none;
 	font-size: 0;
 	border: 1px solid red;
 }
 
-nav#navbar li {
+nav.navbar li {
 	float:left;
 	border: 1px solid red;
 }
-#navbar a:-webkit-any-link {
+.navbar a:-webkit-any-link {
 	color: white;
 	text-decoration: none;
 	display: inline-block;
 	padding:12px 15px;
 	font-size: 2.2vh;
 	border: 1px solid red; /*Border to se finished boundary.*/
-}
-nav.scroll {
-  background-color: #A1572F;
-  color: #eef;
 }
 .jumbotron {
 	background-image: linear-gradient(rgba(0, 0, 0, 0.39), rgba(0, 0, 0, 0.39)), url("../images/banff2.jpg");
@@ -54,7 +49,7 @@ nav.scroll {
 .jumbotron h1 {
 	color: white;
 	position: relative;
-	top: 10.2vh;
+	top: 15.2vh;
 	text-align:center;
 	font-size: 8.8vh;
 	text-shadow: 2px 2px 8px rgb(50, 50, 50);
@@ -64,7 +59,7 @@ nav.scroll {
 .jumbotron p {
 	color: white;
 	position: relative;
-	top: 7vh;
+	top: 12vh;
 	text-align: center;
 	font-size: 5vh;
 	text-shadow: 2px 2px 8px rgb(50, 50, 50);
@@ -74,16 +69,13 @@ nav.scroll {
 .jumbotron h2 {
 	color: white;
 	position: relative;
-	top: 2vh;
+	top: 7vh;
 	height: 0vh;
 	text-align: center;
 	font-size: 5vh;
 	text-shadow: 2px 2px 8px rgb(50, 50, 50);
 	min-width: 370px;
 	border: 1px solid red;
-}
-.jumbotron .jumbotron-text h1, h2, p {
-	top: 3vh;
 }
 img.resize {
 	border-radius: 100%;
