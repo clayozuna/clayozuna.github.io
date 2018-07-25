@@ -41,6 +41,7 @@ nav#navbar li {
 nav.scroll {
   background-color: #A1572F;
   color: #eef;
+}
 .jumbotron {
 	background-image: linear-gradient(rgba(0, 0, 0, 0.39), rgba(0, 0, 0, 0.39)), url("../images/banff2.jpg");
 	background-size: cover;
