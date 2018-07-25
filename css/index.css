@@ -78,10 +78,13 @@ nav.navbar li {
 	min-width: 370px;
 	border: 1px solid red;
 }
-.container {
-	width: 70vh;
-}
 img.resize {
 	border-radius: 100%;
 	width:80%;
+	max-width: 44vh;
+	max-height:44vh;
+}
+.w3-container {
+	min-width:44vh;
+	min-height:44vh;
 }
