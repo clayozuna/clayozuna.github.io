@@ -49,7 +49,7 @@ nav.navbar li {
 .jumbotron h1 {
 	color: white;
 	position: relative;
-	top: 10.2vh;
+	top: 15.2vh;
 	text-align:center;
 	font-size: 8.8vh;
 	text-shadow: 2px 2px 8px rgb(50, 50, 50);
@@ -59,7 +59,7 @@ nav.navbar li {
 .jumbotron p {
 	color: white;
 	position: relative;
-	top: 7vh;
+	top: 12vh;
 	text-align: center;
 	font-size: 5vh;
 	text-shadow: 2px 2px 8px rgb(50, 50, 50);
@@ -69,16 +69,13 @@ nav.navbar li {
 .jumbotron h2 {
 	color: white;
 	position: relative;
-	top: 2vh;
+	top: 7vh;
 	height: 0vh;
 	text-align: center;
 	font-size: 5vh;
 	text-shadow: 2px 2px 8px rgb(50, 50, 50);
 	min-width: 370px;
 	border: 1px solid red;
-}
-.jumbotron .jumbotron-text h1, h2, p {
-	top: 3vh;
 }
 img.resize {
 	border-radius: 100%;
