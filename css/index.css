@@ -88,3 +88,6 @@ img.resize {
 	min-width:44vh;
 	min-height:44vh;
 }
+#introduction {
+	width:100vh;
+}
