@@ -89,5 +89,6 @@ img.resize {
 	min-height:44vh;
 }
 #introduction {
-	width:100vh;
+	width:65vh;
+	margin:auto;
 }
