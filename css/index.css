@@ -99,22 +99,24 @@ img.resize {
 .w3-container h1::before {
 	content: " ";
     display: inline-block;
-    vertical-align: 0vh;
+    vertical-align: 1.5vh;
     margin: 0 10px;
     position: relative;
     padding-bottom: 0%;
     width: 9vh;
     background: #333;
+	height:0.35vh;
 }
 .w3-container h1::after {
 	content: " ";
     display: inline-block;
-    vertical-align: 0vh;
+    vertical-align: 1.5vh;
     margin: 0 10px;
     position: relative;
     padding-bottom: 0%;
     width: 9vh;
     background: #333;
+	height:0.35vh;
 }
 /*     content: " ";
     display: inline-block;
