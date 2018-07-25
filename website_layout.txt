@@ -5,8 +5,15 @@ At the top:
 internal pages. --- COMPLETE
 
 Beneath the navigation bar:
-	1. There will be a banner picture that will have my name as well. --- IN PROGRESS
-	2. The name introduction will have my name styled and possibly a greeting. --- NEXT
+	1. There will be a banner picture that will have my name as well. --- 
+COMPLETE
+	2. The name introduction will have my name styled and possibly a 
+greeting. --- COMPLETE
 
 Beneath the banner:
-	1. There will be a greeting so people learn who I am. --- 
+	1. There will be a greeting so people learn who I am. --- COMPLETE
+Beneath the about me introduction section:
+	1. Give a quick overview of research project.
+	2. Link to a page where a more in-depth overview can be given.
+Beneath the research section:
+	1. Ending where a footer will be included.
