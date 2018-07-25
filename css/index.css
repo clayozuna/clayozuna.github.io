@@ -9,11 +9,14 @@
 .experimental {
 	visibility: hidden;
 }
+nav {
+	top: 0;
+	display: block;
+	position: fixed; /*Moved from nav.navbar*/
+}
 nav.navbar {
 	background-color: #000080;
 	text-align: left;
-	display: block;
-	position: fixed;
 	width: 100%;
 	text-transform: uppercase;
 }
