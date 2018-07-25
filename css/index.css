@@ -81,7 +81,10 @@ nav.navbar li {
 .container {
 	width: 70vh;
 }
+.resize img {
+	border-radius: 100%
+	width:80%
+}
 #introduction {
-	font-weight:40px;
 	text-align:center;
 }
