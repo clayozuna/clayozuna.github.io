@@ -81,7 +81,7 @@ nav.navbar li {
 .container {
 	width: 70vh;
 }
-.introduction {
+#introduction {
 	font-weight:40px;
 	text-align:left;
 }
