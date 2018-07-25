@@ -115,6 +115,9 @@ img.resize {
     background: #333;
 	height:0.35vh;
 }
+footer {
+	display:block;
+}
 
 /*     content: " ";
     display: inline-block;
