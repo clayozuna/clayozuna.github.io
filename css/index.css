@@ -83,6 +83,8 @@ img.resize {
 .w3-container {
 	min-width:44vh;
 	min-height:44vh;
+	margin: auto;
+	width: 65vh;
 }
 .w3-container h1 {
 	font-size: 4.6vh;
@@ -109,10 +111,7 @@ img.resize {
     background: #333;
 	height:0.35vh;
 }
-#introduction {
-	width:65vh;
-	margin:auto;
-}
+
 /*     content: " ";
     display: inline-block;
     height: 2px;
