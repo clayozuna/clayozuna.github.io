@@ -42,7 +42,7 @@ nav.navbar li {
 	background-image: linear-gradient(rgba(0, 0, 0, 0.39), rgba(0, 0, 0, 0.39)), url("../images/banff2.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
-	background-attachment: scroll;
+	background-attachment: fixed;
 	height: 100vh; /*vh scales to the screen size*/
 	background-position: 50% 50%;
 	border: 1px solid red;
@@ -116,7 +116,9 @@ img.resize {
 	height:0.35vh;
 }
 footer {
-	display:block;
+	background-color: #000080;
+	color: white;
+	padding: 5vh;
 }
 
 /*     content: " ";
