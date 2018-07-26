@@ -15,7 +15,7 @@ nav {
 	position: fixed; /*Moved from nav.navbar*/
 }
 nav.navbar {
-	background-color: #000080;
+	background-color: rgba(0,0,0,0.5);
 	text-align: left;
 	width: 100%;
 	text-transform: uppercase;
@@ -101,7 +101,7 @@ img.resize {
     position: relative;
     padding-bottom: 0%;
     width: 9vh;
-    background: #333;
+    background: #ec1010;
 	height:0.35vh;
 }
 .w3-container h1::after {
@@ -112,11 +112,11 @@ img.resize {
     position: relative;
     padding-bottom: 0%;
     width: 9vh;
-    background: #333;
+    background: #ec1010;
 	height:0.35vh;
 }
 footer {
-	background-color: #000080;
+	background-color: #01015f;
 	color: white;
 	padding: 5vh;
 }
