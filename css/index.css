@@ -39,7 +39,7 @@ nav.navbar li {
 	border: 1px solid red; /*Border to se finished boundary.*/
 }
 .jumbotron {
-	background-image: linear-gradient(rgba(0, 0, 0, 0.39), rgba(0, 0, 0, 0.39)), url("../images/sky1.JPG");
+	background-image: linear-gradient(rgba(0, 0, 0, 0.39), rgba(0, 0, 0, 0.39)), url("../images/car1.JPG");
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
