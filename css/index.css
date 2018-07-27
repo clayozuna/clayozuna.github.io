@@ -59,6 +59,9 @@ nav.navbar li {
 .navbar a:active {
 
 }
+.navbar a:target {
+
+}
 .jumbotron {
 	background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.0)), url("../images/sky1.JPG");
 	background-size: cover;
