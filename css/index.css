@@ -30,7 +30,27 @@ nav.navbar li {
 	float:left;
 	border: 1px solid red;
 }
-.navbar a:-webkit-any-link {
+.navbar a:link {
+	color: white;
+	text-decoration: none;
+	display: inline-block;
+	padding:12px 15px;
+	font-size: 2.2vh;
+	border: 1px solid red; /*Border to se finished boundary.*/
+}
+.navbar a:hover {
+	color: black;
+	background-color: rgba(255, 255, 255, 0.5);
+	text-decoration: none;
+	display: inline-block;
+	padding:12px 15px;
+	font-size: 2.2vh;
+	border: 1px solid red; /*Border to se finished boundary.*/
+}
+.navbar a:active {
+
+}
+.navbar a:visited {
 	color: white;
 	text-decoration: none;
 	display: inline-block;
