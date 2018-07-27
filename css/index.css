@@ -145,4 +145,6 @@ footer {
 	padding: 5vh;
 }
 .social {
+	list-style-type: none;
+	float:left;
 }
