@@ -93,3 +93,34 @@ nav.navbar li {
 	min-width: 370px;
 	/*border: 1px solid red;*/
 }
+.w3-container {
+	min-width:44vh;
+	min-height:44vh;
+	margin: auto;
+	width: 96vh;
+}
+.w3-container h1 {
+	font-size: 4.6vh;
+}
+.w3-container h1::before {
+	content: " ";
+    display: inline-block;
+    vertical-align: 1.5vh;
+    margin: 0 1.26vh;
+    position: relative;
+    padding-bottom: 0%;
+    width: 10vh;
+    background: #ec1010;
+	height:0.35vh;
+}
+.w3-container h1::after {
+	content: " ";
+    display: inline-block;
+    vertical-align: 1.5vh;
+    margin: 0 1.26vh;
+    position: relative;
+    padding-bottom: 0%;
+    width: 10vh;
+    background: #ec1010;
+	height:0.35vh;
+}
