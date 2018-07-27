@@ -81,21 +81,21 @@ nav.navbar li {
 	min-width: 370px;
 	/*border: 1px solid red;*/
 }
-.jumbotron p {
+.jumbotron h2 {
 	color: white;
 	position: relative;
-	top: 12vh;
+	top: 7vh;
+	height: 0vh;
 	text-align: center;
 	font-size: 5vh;
 	text-shadow: 2px 2px 8px rgb(50, 50, 50);
 	min-width: 370px;
 	/*border: 1px solid red;*/
 }
-.jumbotron h2 {
+.jumbotron p {
 	color: white;
 	position: relative;
-	top: 7vh;
-	height: 0vh;
+	top: 12vh;
 	text-align: center;
 	font-size: 5vh;
 	text-shadow: 2px 2px 8px rgb(50, 50, 50);
