@@ -11,7 +11,7 @@ nav {
 	position: fixed; /*Moved from nav.navbar*/
 }
 nav.navbar {
-	background-color: rgba(161, 161, 160, .5);
+	background-color: rgba(62, 76, 57, .5);
 	text-align: left;
 	width: 100%;
 	text-transform: uppercase;
@@ -69,7 +69,7 @@ nav.navbar li {
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	height: 50vh; /*vh scales to the screen size*/
-	background-position: 50% 110%;
+	background-position: 50% 100%;
 	/*border: 1px solid red;*/background-siz
 }
 .jumbotron h1 {
