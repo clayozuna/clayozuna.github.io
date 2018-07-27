@@ -64,7 +64,7 @@ nav.navbar li {
     font-size: 2.2vh;
 }
 .jumbotron {
-	background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.0)), url("../images/poland3.JPG");
+	background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.0)), url("../images/beach1.JPG");
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
