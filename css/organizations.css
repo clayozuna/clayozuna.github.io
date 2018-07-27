@@ -67,7 +67,7 @@ nav.navbar li {
 	background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.0)), url("../images/town1.JPG");
 	background-size: cover;
 	background-repeat: no-repeat;
-	background-attachment: fixed;
+	background-attachment: scroll;
 	height: 50vh; /*vh scales to the screen size*/
 	background-position: 50% 100%;
 	/*border: 1px solid red;*/background-siz
