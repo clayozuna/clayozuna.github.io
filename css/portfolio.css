@@ -11,7 +11,7 @@ nav {
 	position: fixed; /*Moved from nav.navbar*/
 }
 nav.navbar {
-    background-color: rgba(159, 165, 181, .5);
+    background-color: rgba(163, 171, 182, .5);
 	text-align: left;
 	width: 100%;
 	text-transform: uppercase;
