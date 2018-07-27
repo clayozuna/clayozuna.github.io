@@ -34,7 +34,7 @@ nav.navbar li {
 	color: white;
 	text-decoration: none;
 	display: inline-block;
-	padding:12px 15px;
+	padding: 1.6vh 1.9vh;
 	font-size: 2.2vh;
 	border: 1px solid red; /*Border to se finished boundary.*/
 }
@@ -42,18 +42,19 @@ nav.navbar li {
 	color: white;
 	text-decoration: none;
 	display: inline-block;
-	padding:12px 15px;
+	padding: 1.6vh 1.9vh;
 	font-size: 2.2vh;
 	border: 1px solid red; /*Border to se finished boundary.*/
 }
 .navbar a:hover {
-	color: black;
-	background-color: rgba(255, 255, 255, 0.5);
+	color: #ec1010;
+	background-color: rgb(255, 255, 255);
 	text-decoration: none;
 	display: inline-block;
-	/*padding:12px 15px; Padding seems unnecessary.*/
+	padding: 1.6vh 1.9vh;
 	font-size: 2.2vh;
 	border: 1px solid red; /*Border to se finished boundary.*/
+	text-shadow: -0.1vh 0.1vh #000000;
 }
 .navbar a:active {
 
