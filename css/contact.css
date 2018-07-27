@@ -64,7 +64,7 @@ nav.navbar li {
     font-size: 2.2vh;
 }
 .jumbotron {
-	background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.0)), url("../images/austin1.jpg");
+	background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.0)), url("../images/street1.JPG");
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
