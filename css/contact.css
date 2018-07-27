@@ -69,7 +69,7 @@ nav.navbar li {
 	background-repeat: no-repeat;
 	background-attachment: scroll;
 	height: 50vh; /*vh scales to the screen size*/
-	background-position: 50% 60%;
+	background-position: 50% 30%;
 	/*border: 1px solid red;*/
 }
 .jumbotron h1 {
