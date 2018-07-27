@@ -24,11 +24,11 @@ nav.navbar {
 nav.navbar ul {
 	list-style-type: none;
 	font-size: 0;
-	border: 1px solid red;
+	/*border: 1px solid red;*/
 }
 nav.navbar li {
 	float:left;
-	border: 1px solid red;
+	/*border: 1px solid red;*/
 }
 .navbar a:link {
 	color: white;
@@ -36,7 +36,7 @@ nav.navbar li {
 	display: inline-block;
 	padding: 1.6vh 1.9vh;
 	font-size: 2.2vh;
-	border: 1px solid red; /*Border to se finished boundary.*/
+	/*border: 1px solid red; /*Border to se finished boundary.*/
 }
 .navbar a:visited {
 	color: white;
@@ -44,7 +44,7 @@ nav.navbar li {
 	display: inline-block;
 	padding: 1.6vh 1.9vh;
 	font-size: 2.2vh;
-	border: 1px solid red; /*Border to se finished boundary.*/
+	/*border: 1px solid red; /*Border to se finished boundary.*/
 }
 .navbar a:hover {
 	color: #ec1010;
@@ -53,7 +53,7 @@ nav.navbar li {
 	display: inline-block;
 	padding: 1.6vh 1.9vh;
 	font-size: 2.2vh;
-	border: 1px solid red; /*Border to se finished boundary.*/
+	/*border: 1px solid red; /*Border to se finished boundary.*/
 	text-shadow: -0.1vh 0.1vh #000000;
 }
 .navbar a:active {
@@ -69,7 +69,7 @@ nav.navbar li {
 	background-attachment: fixed;
 	height: 100vh; /*vh scales to the screen size*/
 	background-position: 50% 50%;
-	border: 1px solid red;
+	/*border: 1px solid red;*/
 }
 .jumbotron h1 {
 	color: white;
@@ -79,7 +79,7 @@ nav.navbar li {
 	font-size: 8.8vh;
 	text-shadow: 2px 2px 8px rgb(50, 50, 50);
 	min-width: 370px;
-	border: 1px solid red;
+	/*border: 1px solid red;*/
 }
 .jumbotron p {
 	color: white;
@@ -89,7 +89,7 @@ nav.navbar li {
 	font-size: 5vh;
 	text-shadow: 2px 2px 8px rgb(50, 50, 50);
 	min-width: 370px;
-	border: 1px solid red;
+	/*border: 1px solid red;*/
 }
 .jumbotron h2 {
 	color: white;
@@ -100,7 +100,7 @@ nav.navbar li {
 	font-size: 5vh;
 	text-shadow: 2px 2px 8px rgb(50, 50, 50);
 	min-width: 370px;
-	border: 1px solid red;
+	/*border: 1px solid red;*/
 }
 img.resize {
 	border-radius: 100%;
