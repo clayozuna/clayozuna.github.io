@@ -157,6 +157,9 @@ div#change {
 div.content-container a {
 	display: inline-block;
 }
+div.gallery-container a {
+	display: inline-block;
+}
 .flex-container div {
 	background-color: #f1f1f1;
 	width: 100px;
