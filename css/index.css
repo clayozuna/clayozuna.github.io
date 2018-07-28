@@ -159,13 +159,13 @@ div#change {
 	line-height: 75px;
 	font-size: 30px;
 }
-div .introduction {
+div #introduction {
 	margin-bottom: 4.78vh;
 }
-div .projects {
+div #projects {
 	margin-bottom: 4.78vh;
 }
-div .portfolio {
+div #portfolio {
 	margin-bottom: 4.78vh;
 }
 
