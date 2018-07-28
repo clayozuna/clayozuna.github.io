@@ -113,6 +113,11 @@ img.resize {
 }
 div#change {
 	padding: 7.6vh 1.3vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
 }
 .w3-container h1 {
 	font-size: 5.49056vh;
