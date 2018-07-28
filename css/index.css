@@ -145,6 +145,7 @@ footer {
 	padding: 5vh;
 	list-style-type: none;
 }
-footer ul li {
-	font-size: 1.5vh;
+.fa {
+	font-size: 3.5vh;
+	list-style-type: none;
 }
