@@ -147,8 +147,13 @@ footer {
 footer ul {
 	list-style-type: none;
 }
+footer li {
+	display: inline;
+}
 footer img {
 	font-size: 3.5vh;
 	list-style-type: none;
-	width: 3.5%;
+	width: 3%;
+	float: right;
+	margin: 0vh 2vh;
 }
