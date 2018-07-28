@@ -109,13 +109,18 @@ img.resize {
 	max-height:44vh;
 }
 .w3-container {
-	min-width:44vh;
-	min-height:44vh;
 	margin: auto;
-	width: 96vh;
+	max-width: 96vh;
+	width: 100%;
+}
+div#change {
+	padding: 7.6vh 1.3vh;
 }
 .w3-container h1 {
-	font-size: 4.6vh;
+	font-size: 5.49056vh;
+	margin-bottom: 5.92vh;
+	text-align: center;
+	margin-top: auto;
 }
 .w3-container h1::before {
 	content: " ";
@@ -139,6 +144,12 @@ img.resize {
     background: #ec1010;
 	height:0.35vh;
 }
+.w3-container p {
+	line-height: 1.667;
+	padding: 0vh 1.45vh;
+	margin-bottom: 3.2581vh;
+	font-size: 2.2vh;
+}
 .flex-container div {
 	background-color: #f1f1f1;
 	width: 100px;
@@ -147,6 +158,16 @@ img.resize {
 	line-height: 75px;
 	font-size: 30px;
 }
+div .introduction {
+	margin-bottom: 4.78vh;
+}
+div .projects {
+	margin-bottom: 4.78vh;
+}
+div .portfolio {
+	margin-bottom: 4.78vh;
+}
+
 .wrap {
 	flex-wrap: wrap;
 	flex-direction: row;
