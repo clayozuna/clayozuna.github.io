@@ -143,9 +143,13 @@ footer {
 	background-color: #01015f;
 	color: white;
 	padding: 5vh;
+
+}
+footer ul {
 	list-style-type: none;
 }
-.fa {
+footer img {
 	font-size: 3.5vh;
 	list-style-type: none;
+	width: 3.5%;
 }
