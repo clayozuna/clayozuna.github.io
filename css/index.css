@@ -213,7 +213,8 @@ footer img {
 }
 .image_1 {
 	background-image: url("../images/sky1.JPG");
-	background-size: contain;
+	background-size: cover;
+	background-repeat: no-repeat;
 }
 .image_2 {
 	object-fit: contain;
