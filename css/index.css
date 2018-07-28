@@ -157,7 +157,7 @@ div#change {
 div.content-container a {
 	display: inline-block;
 }
-div.gallery-container a {
+#portfolio a {
 	display: inline-block;
 }
 .flex-container div {
