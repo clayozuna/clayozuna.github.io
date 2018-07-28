@@ -66,6 +66,7 @@ nav.navbar li {
 	background-attachment: fixed;
 	height: 100vh; /*vh scales to the screen size*/
 	background-position: 50% 50%;
+	padding-top: 1px;
 	/*border: 1px solid red;*/
 }
 .jumbotron h1 {
