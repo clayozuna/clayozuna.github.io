@@ -124,3 +124,31 @@ nav.navbar li {
     background: #ec1010;
 	height:0.35vh;
 }
+footer {
+	background-color: #01015f;
+	color: white;
+	padding: 5.5vh;
+	position:relative;
+	bottom: 0vh;
+}
+footer p {
+	bottom: 0vh;
+    width: 36vh;
+    margin: auto;
+    padding-top: 0.5vh;
+    font-size: 2.2vh;
+}
+footer ul {
+	list-style-type: none;
+}
+footer li {
+	display: inline;
+}
+footer img {
+	list-style-type: none;
+	width: 3%;
+	float: right;
+	margin: 0vh 2vh;
+	position: relative;
+	bottom: 1vh;
+}
