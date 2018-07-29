@@ -64,7 +64,7 @@ nav.navbar li {
     font-size: 2.4vh;
 }
 a#current-page {
-	background-color: rgba(236, 16, 16, 0.5);
+	background-color: rgba(236, 16, 16, 0.5); #13EFEF
 	color: #ffffff;
 }
 .jumbotron {
