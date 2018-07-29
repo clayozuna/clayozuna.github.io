@@ -57,14 +57,14 @@ nav.navbar li {
 }
 .navbar a:target {
     color: black;
-    background-color: rgba(45, 46, 41, .5);
+    background-color: rgba(193, 179, 198, .5);
     text-decoration: none;
     display: inline-block;
     padding: 1.6vh 1.9vh;
     font-size: 2.4vh;
 }
 a#current-page {
-	background-color: rgba(236, 16, 16, 0.5); #C1B3C6
+	background-color: rgba(236, 16, 16, 0.5);
 	color: #ffffff;
 }
 .jumbotron {
