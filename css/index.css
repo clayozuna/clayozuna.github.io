@@ -60,8 +60,8 @@ nav.navbar li {
 
 }
 a#current-page {
-	background-color: blue;
-	color:red;
+	background-color: rgba(236, 16, 16, 0.5);
+	color: #ffffff;
 }
 .jumbotron {
 	background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.0)), url("../images/sky1.JPG");
