@@ -173,12 +173,13 @@ div #portfolio {
 	flex-wrap: wrap;
 	flex-direction: row;
 	display: flex;
+	align-content: center;
 }
 .flex-container div {
 	background-color: #f1f1f1;
-	width: 18vh;
-	height: 18vh;
-	margin: 1.26vh;
+	width: 17vh;
+	height: 17vh;
+	margin: 0.5vh;
 	text-align: center;
 }
 .flex-container img {
