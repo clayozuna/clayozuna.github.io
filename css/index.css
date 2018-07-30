@@ -163,7 +163,7 @@ div.content-container a {
 	display: inline-block;
 }
 #portfolio a {
-	display: inline-block;
+	display: inline-flex;
 }
 div #introduction {
 	margin-bottom: 4.78vh;
@@ -179,6 +179,7 @@ div #portfolio {
 	flex-direction: row;
 	display: flex;
 	align-content: center;
+	justify-content: center;
 }
 .flex-container div {
 	background-color: #f1f1f1;
