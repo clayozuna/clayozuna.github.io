@@ -1,6 +1,6 @@
 * {
 	font-family: 'Open Sans', sans-serif;
-	border: 1px solid rgba(0, 0, 0, 0.3); /*Will put a light border around everything*/
+	/*border: 1px solid rgba(0, 0, 0, 0.3); /*Will put a light border around everything*/
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;								/*Sets boundary so containers are easier to manage*/
