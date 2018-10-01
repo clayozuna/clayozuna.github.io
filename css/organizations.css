@@ -75,6 +75,7 @@ a#current-page { /*Page build test*/
 	background-attachment: scroll;
 	height: 50vh; /*vh scales to the screen size*/
 	background-position: 50% 38%;
+	padding-top: 1px;
 	/*border: 1px solid red;*/
 }
 .jumbotron h1 {
