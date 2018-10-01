@@ -114,7 +114,7 @@ img.resize {
 }
 .w3-container {
 	margin: auto;
-	max-width: 96vh;
+	max-width: 100vh;
 	width: 100%;
 }
 div#change {
