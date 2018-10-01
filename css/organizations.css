@@ -74,8 +74,8 @@ a#current-page { /*Page build test*/
 	background-repeat: no-repeat;
 	background-attachment: scroll;
 	height: 50vh; /*vh scales to the screen size*/
-	background-position: 50% 55%;
-	/*border: 1px solid red;*/background-siz
+	background-position: 50% 38%;
+	/*border: 1px solid red;*/
 }
 .jumbotron h1 {
 	color: white;
