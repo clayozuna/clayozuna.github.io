@@ -35,17 +35,27 @@
         --><p>
               For professional inquiries email me at: clayozuna@tamu.edu. Professional submission form coming soon!
           </p>
-          <form action="/action_page.php"><!--Need to figure out what that does-->
+          <!--form section -->
+          <form action="/php/response.php"><!--Need to figure out what that does-->
             <label for="fname">First Name</label>
             <input type="text" id="fname" name="firstname" placeholder="Your first name...">
 
             <label for="lname">Last Name</label>
             <input type="text" id="lname" name="lastname" placeholder="Your last name...">
 
+            <label for="email">Email</label>
+            <input type="text" name="email" placeholder="Enter your email...">
+
             <label for="subject">Subject</label>
             <textarea id="subject" name="subject" placeholder="Write something..." style="height:200px"></textarea>
 
             <input type="submit" value="Submit">
+          </form>
+          <!--resonse to submitting the form-->
+          <form action="welcome_get.php" method="get">
+            Name: <input type="text" name="name"><br>
+            E-mail: <input type="text" name="email"><br>
+            <input type="submit">
           </form>
       </div>
     </div>

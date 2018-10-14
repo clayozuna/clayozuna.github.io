@@ -14,6 +14,6 @@
 </head>
 
 <body>
-  Thanks for your resonse <?php echo $_GET["name"]; ?>
+  Thanks for your resonse <?php echo $_GET["firstname"]; ?>
 </body>
 </html>
