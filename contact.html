@@ -37,7 +37,7 @@
           </p>
           <!--form section -->
           <div class="w3-container">
-            <form action="/php/mail.php" method="POST"><!--Need to figure out what that does-->
+            <form action="https://formspree.io/clayozuna@tamu.edu" method="POST"><!--Need to figure out what that does-->
               <fieldset>
                 <label for="name">Name</label>
                 <input type="text" id="name" name="name" placeholder="Your name...">
@@ -48,15 +48,15 @@
               </fieldset>-->
               <fieldset>
                 <label for="email">Email</label>
-                <input type="text" id="email" name="email" placeholder="Enter your email...">
+                <input type="email" id="email" name="email" placeholder="Enter your email...">
               </fieldset>
               <fieldset>
                 <label for="message">Message</label>
                 <textarea type="text" id="message" name="message" placeholder="Write something..." style="height:200px"></textarea>
               </fieldset>
               <fieldset>
-                <input type="submit" value="Submit">
-                <input type="reset" value="Clear">
+                <input type="submit" value="Submit"> <!--What if I change to button instead of input?-->
+                <input type="reset" value="Clear"> <!-- Not needed? How to implement smoothly?-->
               </fieldset>
             </form>
           </div>
