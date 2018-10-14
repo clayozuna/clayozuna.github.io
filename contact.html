@@ -36,22 +36,29 @@
               For professional inquiries email me at: clayozuna@tamu.edu. Professional submission form coming soon!
           </p>
           <!--form section -->
-          <form action="/php/response.php"><!--Need to figure out what that does-->
-            <label for="fname">First Name</label>
-            <input type="text" id="fname" name="firstname" placeholder="Your first name...">
-
-            <label for="lname">Last Name</label>
-            <input type="text" id="lname" name="lastname" placeholder="Your last name...">
-
-            <label for="email">Email</label>
-            <input type="text" name="email" placeholder="Enter your email...">
-
-            <label for="subject">Subject</label>
-            <textarea id="subject" name="subject" placeholder="Write something..." style="height:200px"></textarea>
-
-            <input type="submit" value="Submit">
-          </form>
-
+          <div class="w3-container">
+            <form action="/php/response.php"><!--Need to figure out what that does-->
+              <fieldset>
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" placeholder="Your name...">
+              </fieldset>
+              <!--<fieldset>
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="lastname" placeholder="Your last name...">
+              </fieldset>-->
+              <fieldset>
+                <label for="email">Email</label>
+                <input type="text" id="email" name="email" placeholder="Enter your email...">
+              </fieldset>
+              <fieldset>
+                <label for="subject">Subject</label>
+                <textarea type="text" id="subject" name="subject" placeholder="Write something..." style="height:200px"></textarea>
+              </fieldset>
+              <fieldset>
+                <input type="submit" value="Submit">
+              </fieldset>
+            </form>
+          </div>
       </div>
     </div>
     <footer>
