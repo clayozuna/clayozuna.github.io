@@ -37,7 +37,7 @@
           </p>
           <!--form section -->
           <div class="w3-container">
-            <form action="/php/response.php"><!--Need to figure out what that does-->
+            <form action="/php/mail.php" method="POST"><!--Need to figure out what that does-->
               <fieldset>
                 <label for="name">Name</label>
                 <input type="text" id="name" name="name" placeholder="Your name...">
@@ -51,11 +51,12 @@
                 <input type="text" id="email" name="email" placeholder="Enter your email...">
               </fieldset>
               <fieldset>
-                <label for="subject">Subject</label>
-                <textarea type="text" id="subject" name="subject" placeholder="Write something..." style="height:200px"></textarea>
+                <label for="message">Message</label>
+                <textarea type="text" id="message" name="message" placeholder="Write something..." style="height:200px"></textarea>
               </fieldset>
               <fieldset>
                 <input type="submit" value="Submit">
+                <input type="reset" value="Clear">
               </fieldset>
             </form>
           </div>
