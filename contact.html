@@ -37,7 +37,7 @@
           </p>
           <!--form section -->
           <div class="w3-container">
-            <form action="https://formspree.io/clayozuna@tamu.edu" method="POST"><!--Need to figure out what that does-->
+            <form method="POST"><!--Deleted action="https://formspree.io/clayozuna@tamu.edu" for extra security test-->
               <fieldset>
                 <label for="name">Name</label>
                 <input type="text" id="name" name="name" placeholder="Your name...">
@@ -63,6 +63,10 @@
                 <input type="text" name="_gotcha" style="display:none" /> <!--Security tests-->
               </fieldset>
             </form>
+            <script>
+    var contactform =  document.getElementById('contactform');
+    contactform.setAttribute('action', '//formspree.io/' + 'clayozuna' + '@' + 'tamu' + '.' + 'edu');
+</script>
           </div>
       </div>
     </div>
