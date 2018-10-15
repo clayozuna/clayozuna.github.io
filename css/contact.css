@@ -165,8 +165,8 @@ input[type=text], select, textarea {
 	border: 1px solid #ccc;
 	border-radius: 4px;
 	box-sizing: border-box;
-	margin-top: 6px;
-	margin-bottom: 16px;
+	margin-top: .4vh;
+	margin-bottom: 1.5vh;
 	resize: vertical;
 }
 input[type=submit] {
@@ -178,6 +178,16 @@ input[type=submit] {
 }
 input[type=submit]:hover {
 	background-color: #45a049;
+}
+textarea[type=text] {
+	width: 100%;
+	padding: 12px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+	margin-top: .4vh;
+	margin-bottom: 1.5vh;
+	resize: vertical;
 }
 
 .w3-container form {
