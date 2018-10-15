@@ -190,3 +190,16 @@ border: 0px solid #c0c0c0;
 margin: 0 2px;
 padding: 0.05em 0.63em 0.25em;
 }
+
+#contact h3 {
+	color: #F96;
+	display: block;
+	font-size: 30px;
+	font-weight: 400;
+}
+
+#contact h4 {
+	margin:5px 0 15px;
+	display:block;
+	font-size:13px;
+}
