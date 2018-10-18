@@ -1,0 +1,210 @@
+* {
+	font-family: 'Open Sans', sans-serif;
+	border: 0px solid rgba(0, 0, 0, 0.3);
+	padding: 0;
+	box-sizing: border-box;
+	text-align: center;
+}
+nav {
+	top: 0;
+	display: block;
+	position: fixed; /*Moved from nav.navbar*/
+}
+nav.navbar {
+    background-color: rgba(159, 165, 181, .5);
+	text-align: left;
+	width: 100%;
+	text-transform: uppercase;
+	z-index: 10;
+}
+nav.navbar ul {
+	list-style-type: none;
+	font-size: 0;
+	/*border: 1px solid red;*/
+}
+nav.navbar li {
+	float:left;
+	/*border: 1px solid red;*/
+}
+.navbar a:link {
+	color: white;
+	text-decoration: none;
+	display: inline-block;
+	padding: 1.6vh 1.9vh;
+	font-size: 2.4vh;
+	/*border: 1px solid red; /*Border to se finished boundary.*/
+}
+.navbar a:visited {
+	color: white;
+	text-decoration: none;
+	display: inline-block;
+	padding: 1.6vh 1.9vh;
+	font-size: 2.4vh;
+	/*border: 1px solid red; /*Border to se finished boundary.*/
+}
+.navbar a:hover {
+	color: #000000;
+	background-color: rgb(255, 255, 255);
+	text-decoration: none;
+	display: inline-block;
+	padding: 1.6vh 1.9vh;
+	font-size: 2.4vh;
+	/*border: 1px solid red; /*Border to se finished boundary.*/
+	text-shadow: -0.1vh 0.1vh #000000;
+}
+.navbar a:active {
+
+}
+.navbar a:target {
+    color: black;
+    background-color: rgba(45, 46, 41, .5);
+    text-decoration: none;
+    display: inline-block;
+    padding: 1.6vh 1.9vh;
+    font-size: 2.4vh;
+}
+a#current-page {
+	background-color: rgba(96, 90, 74, 0.5);
+	color: #ffffff;
+	text-shadow: -0.1vh 0.1vh #000000;
+}
+.jumbotron {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.0)), url("../images/poland3.JPG");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	height: 50vh; /*vh scales to the screen size*/
+	background-position: 50% 30%;
+	padding-top: 1px;
+	/*border: 1px solid red;*/
+}
+.jumbotron h1 {
+	color: white;
+	position: relative;
+	top: 15.2vh;
+	text-align:center;
+	font-size: 8.8vh;
+	text-shadow: 2px 2px 8px rgb(50, 50, 50);
+	min-width: 370px;
+	/*border: 1px solid red;*/
+}
+.jumbotron h2 {
+	color: white;
+	position: relative;
+	top: 7vh;
+	height: 0vh;
+	text-align: center;
+	font-size: 5vh;
+	text-shadow: 2px 2px 8px rgb(50, 50, 50);
+	min-width: 370px;
+	/*border: 1px solid red;*/
+}
+.w3-container {
+	min-width:44vh;
+	min-height:44vh;
+	margin: auto;
+	max-width: 100vh;
+	width: 100%;
+}
+.w3-container h1 {
+	font-size: 4.6vh;
+}
+.w3-container h1::before {
+	content: " ";
+    display: inline-block;
+    vertical-align: 1.5vh;
+    margin: 0 1.26vh;
+    position: relative;
+    padding-bottom: 0%;
+    width: 10vh;
+    background: #ec1010;
+	height:0.35vh;
+}
+.w3-container h1::after {
+	content: " ";
+    display: inline-block;
+    vertical-align: 1.5vh;
+    margin: 0 1.26vh;
+    position: relative;
+    padding-bottom: 0%;
+    width: 10vh;
+    background: #ec1010;
+	height:0.35vh;
+}
+footer {
+	background-color: #01015f;
+	color: white;
+	padding: 5.5vh;
+	position:relative;
+	bottom: 0vh;
+}
+footer p {
+	bottom: 0vh;
+    width: 36vh;
+    margin: auto;
+    padding-bottom: 1vh;
+    font-size: 2.2vh;
+	margin-bottom: .6vh;
+}
+footer ul {
+	list-style-type: none;
+}
+footer li {
+	display: inline;
+}
+footer img {
+	list-style-type: none;
+	width: 3%;
+	margin: 0vh 2vh;
+	position: relative;
+	top: 2vh;
+}
+input[type=text], select, textarea {
+	width: 100%;
+	padding: 12px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+	margin-top: .4vh;
+	margin-bottom: 1.5vh;
+	resize: vertical;
+}
+input[type=submit] {
+	background-color: #4caf50;
+	padding: 12px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}
+input[type=submit]:hover {
+	background-color: #45a049;
+}
+textarea[type=text] {
+	width: 100%;
+	padding: 12px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+	margin-top: .4vh;
+	margin-bottom: 1.5vh;
+	resize: vertical;
+}
+
+.w3-container form {
+	border-radius: 5px;
+	background-color: #f2f2f2;
+	padding: 20px;
+}
+
+#contact h2 {
+	color: #F96;
+	display: block;
+	font-size: 30px;
+	font-weight: 400;
+}
+
+#contact h3 {
+	margin:5px 0 15px;
+	display:block;
+	font-size:13px;
+}
