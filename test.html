@@ -13,13 +13,59 @@
 </head>
 
 <body>
-     <h1 id="vanish">This is my secret page where I will be working on experimental implementations. Congrats if you found it!</h1>
-     <script>
-     <p id="demo">JavaScript can hide HTML elements.</p>
+     <header class="jumbotron">
+      <nav class="navbar">
+        <ul>
+          <li><a href="./index.html" >Home</a></li>
+          <li><a href="./about.html">About</a></li>
+          <li><a href="./projects.html">Projects</a></li>
+          <!--<li><a href="./portfolio.html">Portfolio</a></li>-->
+          <li><a href="./organizations.html">Organizations</a></li>
+          <li><a href ="https://drive.google.com/file/d/1CWlMFyo1nuhe4IGd1_veva1-L9tmU8Lh/view?usp=sharing" target="_blank">Resume</a></li>
+          <li><a href="./contact.html" id="current-page">Contact</a></li>
+         <ul>
+      </nav>
+        <h1>Contact</h1>
+    </header>
+    <div class="w3-container">														<!--This is where i introduce myself and provide an overview-->
+      <!--<div id="overview">
+        <h1>Projects overview</h1>Add a photo of me here
+          <p>Let's get in touch!</p>
+          <img src="/images/clay2.png" alt="Headshot of Clay Ozuna" class="resize">
+        -->
+          <!--form section -->
+          <div class="w3-container">
+            <form method="POST" action="https://formspree.io/clayozuna@tamu.edu">
+              <h2>CONTACT FORM</h2>
+              <h3>Send me a message by submitting the form below and I'll get back to you within 24 hours!</h3>
 
-     <button type="button" onclick="document.getElementById('demo').style.display='none'">Click Me!</button>
-    </script>
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" placeholder="Your name...">
 
+              <!--<fieldset>
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="lastname" placeholder="Your last name...">
+              </fieldset>-->
+
+                <label for="email">Email</label>
+                <input type="text" id="email" name="_replyto" placeholder="Enter your email..."> <!--replyto allows for testing -->
+
+                <label for="message">Message</label>
+                <textarea type="text" id="message" name="message" placeholder="Write something..." style="height:200px"></textarea>
+
+                <input type="submit" value="Submit"> <!--What if I change to button instead of input?-->
+
+                <input type="hidden" name="_subject" value="Website contact" />
+                <input id="ghost" type="text" name="_gotcha" style="display:none" /> <!--Security tests-->
+            </form>
+  <!--          <script>
+    var contactform =  document.getElementById('contactform');
+    contactform.setAttribute('action', '//formspree.io/' + 'clayozuna' + '@' + 'tamu' + '.' + 'edu');
+  </script>-->
+          </div>
+      </div>
+    </div>
+    <footer>
       <p>Coded by: Clay Ozuna</p>
       <div>
         <a href="https://www.linkedin.com/in/clay-ozuna-17a646109/" target="_blank"><img src="/images/iconmonstr-linkedin-1-240.png" alt="LinkedIn link"></a>
