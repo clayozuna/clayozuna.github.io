@@ -26,12 +26,18 @@
          <ul>
       </nav>
         <h1>Contact</h1>
-    </header>													
+    </header>
           <div class="w3-container">
+            <script>
+            function myFunction() {
+              document.getElementById("ghost").innerHTML = "I changed the words!";
+            }
+            </script>
             <!--Javascript example below. Why doesn't it need scripting?-->
             <p id="demo">JavaScript can hide HTML elements.</p>
 
             <button type="button" onclick="document.getElementById('demo').style.display='none'">Click Me!</button>
+            <button type='button' onclick="myFunction()">Test here</button>
           </div>
     <footer>
       <p>Coded by: Clay Ozuna</p>
