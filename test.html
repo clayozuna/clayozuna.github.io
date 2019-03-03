@@ -29,11 +29,14 @@
           </script>-->
           <canvas id="myCanvas" width="200" height="100" style="border:1px solid #d3d3d3"></canvas>
               Hello World!
-              <form action="test.html"> <!--Testting to see if will refresh page-->
+              <form action="test.html"> <!--Refreshes page when submitted. Prefilled does not vanish when clicked on.-->
                 <h1>
                   Give me all your passwords
                 </h1>
-                <input type="text" name="first-text-field" value="Prefilled text">
+                <label for="username">Username</label>
+                <input type="text" name="username" value="Sausebaus" id="username">
+                <label for="password">Password</label>
+                <input type="text" name="password" value="Your secrets not mine" id="password">
               </form>
             <script>
               alert("Hello");
