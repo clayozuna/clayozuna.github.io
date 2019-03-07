@@ -91,6 +91,11 @@ form input {
 	padding: 20px;
 	width: 100px;
 }
+form input:focus {
+	background: #ffffff;
+	border-left: 2px splid #000000;
+	box-shadow: none;
+}
 button .btn {
 		background: transparent;
 		border: none;
