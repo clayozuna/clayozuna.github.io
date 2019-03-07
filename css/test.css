@@ -73,6 +73,9 @@ a#current-page {
 	color: #ffffff;
 	text-shadow: -0.1vh 0.1vh #000000;
 }
+.main {
+	margin-top: 80px;
+}
 .header h1 {
 	border-left: 2px solid #00f28f;
 	font-size: 48px;
@@ -80,6 +83,21 @@ a#current-page {
 	padding-left: 20px;
 	font-family: 'Montserrat', sans-serif;
 }
+form input {
+	background-color: #f0f0f0;
+	border: none;
+	border-left: 2px solid #ffffff;
+	font-size: 36px;
+	padding: 20px;
+	width: 100px;
+}
+button .btn {
+		background: transparent;
+		border: none;
+		color: #00f28f;
+		cursor: pointer
+}
+
 .jumbotron {
 	background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.0)), url("../images/poland3.JPG");
 	background-size: cover;
