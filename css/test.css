@@ -95,6 +95,7 @@ form input:focus {
 	background: #ffffff;
 	border-left: 2px splid #000000;
 	box-shadow: none;
+	outline: none;
 }
 button .btn {
 		background: transparent;
