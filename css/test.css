@@ -14,7 +14,7 @@ body {
 	background-color: #eeeeee;
 }
 
-.container {
+.weather-container {
 	width: 500px;
 	height: 300px;
 	margin:25vh auto;
