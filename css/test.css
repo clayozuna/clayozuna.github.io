@@ -113,6 +113,12 @@ button.btn:hover {
 	color: #ffffff;
 }
 
+.comments {
+	margin-top: 20px;
+	list-style: none;
+	padding-left: 0px;
+}
+
 .jumbotron {
 	background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.0)), url("../images/poland3.JPG");
 	background-size: cover;
