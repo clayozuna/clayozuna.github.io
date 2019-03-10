@@ -90,6 +90,7 @@ form input {
 	font-size: 36px;
 	padding: 20px;
 	width: 100px;
+	transition: background 2s, border-left 2s;
 }
 form input:focus {
 	background: #ffffff;
