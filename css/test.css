@@ -105,6 +105,12 @@ button.btn {
 		cursor: pointer;
 		font-size: 32px;
 		padding: 20px 24px;
+
+		transition: background 2s, border-left 2s;
+}
+button.btn:hover {
+	background-color: #00f28f;
+	color: #ffffff;
 }
 
 .jumbotron {
