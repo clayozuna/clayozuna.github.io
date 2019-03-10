@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Clay E. Ozuna</title>
+  <title>Test Page</title>
     <link href="./css/test.css" type="text/css" rel="stylesheet">
 	<link href="//fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css"> <!--weatherlink-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Clay E. Ozuna">
     <meta charset="UTF-8">
@@ -23,6 +24,38 @@
       </nav>
         <h1>Test</h1>
     </header>-->
+<!--Weather API for weather widget-->
+    <div class="container"> <!--May need to specify for weather-->
+    <header class="header">
+      <div class="search">
+        <input type="text" placeholder="Enter City Name" id="search-txt">
+        <a id="search-btn" href="#"><i class="fas fa-search"></i></a>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <div class="city-icon">
+      <div class="city-icon-holder">
+        <div id="city-name"></div>
+        <img src="" alt="" id="icon">
+      </div>
+    </div>
+
+    <div class="temperature">
+      <div id="temp"></div>
+    </div>
+
+    <div class="humidity">
+      <div id="humidity-div"></div>
+    </div>
+    </main>
+
+  </div>
+
+<!--End Weather API for weather widget-->
+
+<!--Begin thread post-->
     <header class="header">
       <div class="container">
         <div class="row">
@@ -51,10 +84,11 @@
           </ul>
         </div>
       </div>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js">
-</script>
-<script src="script.js">
-</script>
+<!--End thread post-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="script.js"></script>
+<script src='https://use.fontawesome.com/releases/v5.0.13/js/all.js'></script><!--For Weather-->
+<script src="test.js"></script>
 
           <!--<div class="w3-container">
             <!--<script>
