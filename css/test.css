@@ -98,11 +98,13 @@ form input:focus {
 	box-shadow: none;
 	outline: none;
 }
-button .btn {
+button.btn {
 		background: transparent;
 		border: none;
 		color: #00f28f;
-		cursor: pointer
+		cursor: pointer;
+		font-size: 32px;
+		padding: 20px 24px;
 }
 
 .jumbotron {
