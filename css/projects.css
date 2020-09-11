@@ -131,6 +131,9 @@ a#current-page {
     background: #ec1010;
 	height:0.35vh;
 }
+h3 {
+	text-align:left;
+}
 footer {
 	background-color: #01015f;
 	color: white;
