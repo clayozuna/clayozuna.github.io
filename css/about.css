@@ -22,6 +22,13 @@ nav.navbar ul {
 	font-size: 0;
 	/*border: 1px solid red;*/
 }
+img.resize {
+	border-radius: 100%;
+	width:80%;
+	max-width: 52vh;
+	max-height:67vh;
+	margin-bottom: 3.2581vh;
+}
 nav.navbar li {
 	float:left;
 	/*border: 1px solid red;*/
