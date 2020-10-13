@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Clay E. Ozuna</title>
+    <link href="./css/Revit_Portfolio.css" type="text/css" rel="stylesheet">
+	<link href="//fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Clay E. Ozuna">
+    <meta charset="UTF-8">
+    <meta name="description" content="Howdy! I'm Clay Ozuna and this is my professional portfolio.
+  Feel free to explore and learn about my projects, organizations, and hobbies.">
+  <style>
+.btn {
+  background-color: #01015f;
+  border: none;
+  color: white;
+  padding: 12px 30px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+/* Darker background on mouse-over */
+.btn:hover {
+  background-color: #0000f9;
+}
+</style>
+</head>
+
+<body>
+     <header class="jumbotron">
+      <nav class="navbar">
+        <ul>
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="./about.html" >About</a></li>
+          <li><a href="./projects.html">Projects</a></li>
+          <li><a href="./organizations.html">Organizations</a></li>
+          <li><a href="./Revit Portfolio.html" id="current-page">Revit Portfolio</a></li>
+          <li><a href ="https://drive.google.com/file/d/1D-1XcCb1JXDtVeWCvmIt2oOSghhyOqyw/view?usp=sharing" target="_blank">Resume</a></li>
+          <li><a href="https://drive.google.com/file/d/1ifsRXFb82Y3TOjFInkNchehqsX8TViTK/view?usp=sharing" target="_blank">Diploma</a></li>
+          <li><a href="./contact.html">Contact</a></li>
+         <ul>
+      </nav>
+        <h1>Revit Home Project</h1>
+    </header>
+    <div class="w3-container">														<!--This is where i introduce myself and provide an overview-->
+      <div id="intro">
+
+        <h1>Introduction</h1>
+<!---->
+        <p>
+            After my interview October 7th, I decided to work on a project that would give me some experience with Revit.
+            The easiest option was modeling my home, which I decided to build over the weekend. Because of my previous experience working with AutoCAD and Autodesk Inventor,
+            I found the transition into Revit fairly simple.
+        </p>
+        <p>The remainder of the page is my thought process from project start to finish and lessons learned.
+          If interested, the zip file for the foundation and linked electrical system can be found in the button below:</p>
+        <form method="get" action="../revit/Clay Ozuna Revit Sample.zip">
+         <button class="btn" type="submit"><i class="fa fa-download"></i> Download Here</button>
+       </form>
+      </div>
+
+      <div id="foundation">
+          <h1>Part 1: The Pre-model Process</h1>
+            </p>
+            <p>
+              The first hurdle I faced in the project was determining how I was going to access the software.
+              After some searching, I realized that it could be accessed through the Texas A&M Virtual Open Access Lab.
+              Upon opening the software, I was quickly overwhelmed at the different project options available.
+              I spent my Friday watching Revit tutorials from MEP engineers and Architects on YouTube.
+              I followed along as they walked me through the software and several small-scale projects.
+            </p>
+            <p>
+              Saturday, feeling confident in my ability, I decided to get started with the project.
+              With the help of my mother, I dimensioned the entire house.
+              Figure 1 is an example of the measurements taken as we went around the perimeter.
+
+            </p>
+              <img src = "../images/dimensions.jpg" class="resize" id="dimension"
+        alt = "Picture of house dimensions" />
+        <p id="img-text"><strong>Figure 1:</strong> Perimeter and Interior Dimensions
+            </p>
+            <h1>Part 2: Modeling in Revit</h1>
+            <p>
+              With the perimeter dimensioned, I went to work building the model.
+              I used a south-facing foundation with a top plate 8'0" above the finished floor level.
+              Once the perimeter was modeled using brick wall and sheetrock, I dimensioned the interior, putting in walls as I went.
+              Inside, I used basic 8" walls. Afterwards, I put in doors and windows corresponding with measurements taken.
+              Wanting to make the final product more presentable, I partitioned each area into rooms and used Revit to develop a legend, as shown in figure 2 below.
+            </p>
+            <p>
+
+            </p>
+              <img src = "../images/Home Floor Plan.PNG" class="resize"
+        alt = "Picture of house dimensions" />
+        <p id="img-text"><strong>Figure 2: </strong>Modeled Home Floor with Legend</p>
+              I also put in furniture closely resembling the current layout of the house.
+              To tie out the foundational work, I installed ceilings almost exactly resembling the current state of the house.
+            </p>
+	</div>
+      <div id="Electrical">
+        <h1>Part 3: Determining Home Circuits</h1>
+        <p>
+          After completing the foundation, I needed to determine which outlets were wired to which circuit breaker.
+          To do this, I would turn off a breaker and make note of what turned off in the house one by one.
+          My notes can be found in figure 3.
+        </p>
+          <img src = "../images/circuitpanel+circuit.PNG" class="resize"
+    alt = "Picture of circuit panel and wirings" />
+    <p id="img-text"><strong>Figure 3: </strong>Circuit Breaker Panel and Related Areas</p>
+        <h1>Part 4: Modeling in Revit</h1>
+        <p>
+          Modeling the electrical system was a fairly simple process.
+          I understood what Andrew meant when he said it was more of a 3-D building process during this step.
+          It was important to not only place the outlet or switch on the right plane, but also at the right height.
+          At this point, I went around the house with my laptop measuring the placement of each outlet or switch and modeling it.
+          Though tricky, I was able to find a workaround for the living area and kitchen lights that were placed on a 5"/12" sloped ceiling.
+
+        </p>
+        <p>
+          Once everything including the panelboard was placed, I wired and named each circuit in accordance to the label on the circuit breaker panel.
+          Switches were also wired to their respective lights. 
+          Each circuit used arced wiring since the wiring was hidden in the walls. Figure 4 shows the final top-down view of the electrical circuit.
+        </p>
+        <img src = "../images/electrical connections.PNG" class="resize"
+  alt = "Picture of circuit panel and wirings" />
+        <p id="img-text"><strong>Figure 4: </strong>Top-Down View of Circuits</p>
+      </div>
+      <div id="Conclusion">
+        <h1>Lessons Learned and Future Work</h1>
+        <p>
+          Overall, I found this was an excellent project to get experience using Revit.
+          From this, I was able to model the structure of a home and install power systems.
+          Due to the virtual open access lab software and personal knowledge limitations, I ran into a couple issues during modeling.
+</p>
+          <p>The first issue was not having all of the electrical devices, such as appliances and materials to make a finished model.
+          The second issue faced was not being able to model the home exactly due to the 1965 national electrical codes used. The home was built to 1965 NFPA 70 codes.
+          This edition of the national electrical codes did not include the 80% limitation of the branch-circuit ampere rating.
+          The third major issue faced was that saves were originally placed in the virtual computer. When disconnected, all data was lost.
+          This resulted in me losing half a day of work. Thankfully, it also gave me more experience having to repeat the work over again.
+          <!--Given my construction experience with craft members, I was able to understand how a system might make sense to an engineer but not the people constructing the home.
+          For example-->
+        </p>
+        <p>
+          In the future, once I have more experience, I would like to revisit this model to add, HVAC, Plumbing, and finishing touches.
+          I believe with a bit more training in the Revit, I can make a highly polished model.
+
+        </p>
+
+
+      </div>
+    <footer>
+      <p>Coded by: Clay Ozuna</p>
+      <div>
+        <a href="https://www.linkedin.com/in/clay-ozuna-17a646109/" target="_blank"><img src="/images/iconmonstr-linkedin-1-240.png" alt="LinkedIn link"></a>
+        <a href="https://www.instagram.com/theceozuna/" target="_blank"><img src="/images/iconmonstr-instagram-11-240.png" alt="Instagram link"></a>
+        <a href="https://github.com/clayozuna" target="_blank"><img src="/images/iconmonstr-github-1-240.png" alt="Github link"></a>
+      </div>
+    </footer>
+</body>
+</html>
